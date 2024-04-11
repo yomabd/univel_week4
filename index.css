@@ -106,13 +106,13 @@ padding: 3em 5em;
 .projects{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     padding: 5em;
     gap: .7em;
 
 }
 .project{
-    /* display: flex; */
+    display: flex;
     flex-direction: column;
     /* flex: 1 1 200px; */
     background-color: #bf550a80;
@@ -121,8 +121,9 @@ padding: 3em 5em;
     line-height: 1.2em;
     gap: .8em;
     display: none;
-    width: 40%;
-    height: 40%;
+    /* width: 40%; */
+    /* height: 40%; */
+    /* justify-content: space-between; */
 }
 .active{
     display: block;
