@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* font-size: 1.2em; */
+}
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    background-image: url('./bioBG.jpg');
+    color: #ffffff9b;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form{
+
+    text-align: center;
+}
+.form input, button{
+    border-radius: 5px;
+    border-color: #bf550a80;
+
+
+}
+.form input{
+    width: 20rem;
+    height: 2rem;
+    outline: none;
+
+}
+.form label{
+    display: block;
+}
+
+.form label:nth-child(n+1){
+
+    margin-top: 10px;
+}
+#inputmessage{
+text-align: center;
+border-radius: 5px;
+}
+button{
+    width: 8rem;
+    height: 2rem;
+    font-size: larger;
+    font-weight: none;
+    background-color: white;
+    cursor: pointer;
+    color: grey;
+}
+button:hover{
+    background-color: rgba(255, 255, 255, 0.657);
+}
